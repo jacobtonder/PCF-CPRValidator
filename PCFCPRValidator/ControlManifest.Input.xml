@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Netcompany" constructor="PCFCPRValidator" version="0.0.1" display-name-key="PCFCPRValidator" description-key="PCFCPRValidator description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="value" display-name-key="Value_Display_Key" description-key="Value_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/cpr-validator-control.css" order="2" />
+    </resources>
+  </control>
+</manifest>
